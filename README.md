@@ -6,7 +6,8 @@ externalities like carbon footprint or resource depletion.
 
 ## Usage
 
-1. Prepare a JSON file describing your products:
+1. Prepare a JSON file describing your products. A sample file named
+   `sample_data.json` is included:
 
 ```json
 [
@@ -26,7 +27,7 @@ externalities like carbon footprint or resource depletion.
 2. Run the CLI to calculate real costs:
 
 ```bash
-python -m pantopia.cli data.json
+python -m pantopia.cli sample_data.json
 ```
 
 ## Testing
