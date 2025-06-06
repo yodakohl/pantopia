@@ -31,6 +31,12 @@ externalities like carbon footprint or resource depletion.
 python -m pantopia.cli sample_data.json
 ```
 
+You can also display the cost for a single SKU:
+
+```bash
+python -m pantopia.cli sample_data.json --sku WID-001
+```
+
 ## Testing
 
 Run the unit tests with:
