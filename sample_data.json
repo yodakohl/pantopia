@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Widget",
+    "price": 10.0,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.5,
+      "resources": 0.25,
+      "waste": 0.25
+    }
+  },
+  {
+    "name": "Gadget",
+    "price": 15.0,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.7,
+      "resources": 0.5,
+      "waste": 0.3
+    }
+  },
+  {
+    "name": "Thingamajig",
+    "price": 20.0,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 1.0,
+      "resources": 0.75,
+      "waste": 0.4
+    }
+  }
+]
