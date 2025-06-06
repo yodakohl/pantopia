@@ -11,9 +11,23 @@ def test_cli_filter_sku():
         "pantopia.cli",
         str(data_path),
         "--sku",
-        "11111111-1111-1111-1111-111111111111",
+        "a1b2c3d4-e5f6-7890-1234-567890abcdef",
     ], capture_output=True, text=True)
-    assert "11111111-1111-1111-1111-111111111111" in result.stdout
-    assert "Widget" in result.stdout
-    assert "$12.00" in result.stdout
+    assert "a1b2c3d4-e5f6-7890-1234-567890abcdef" in result.stdout
+    assert "Apple iPhone 15 Pro" in result.stdout
+    assert "$1119.78" in result.stdout
+    assert result.returncode == 0
+
+
+def test_cli_search():
+    data_path = Path(__file__).resolve().parent.parent / "sample_data.json"
+    result = subprocess.run([
+        sys.executable,
+        "-m",
+        "pantopia.cli",
+        str(data_path),
+        "--search",
+        "apple",
+    ], capture_output=True, text=True)
+    assert "Apple iPhone 15 Pro" in result.stdout
     assert result.returncode == 0
