@@ -15,7 +15,11 @@ def main():
     for item in data:
         ext = Externalities(**item["externalities"])
         rc = real_cost(item["price"], ext)
-        print(f"{item['name']}: ${rc:.2f} (base ${item['price']:.2f})")
+        sku = item.get("sku", item.get("id", ""))
+        if sku:
+            print(f"{sku} {item['name']}: ${rc:.2f} (base ${item['price']:.2f})")
+        else:
+            print(f"{item['name']}: ${rc:.2f} (base ${item['price']:.2f})")
 
 if __name__ == "__main__":
     main()
