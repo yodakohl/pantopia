@@ -6,12 +6,13 @@ externalities like carbon footprint or resource depletion.
 
 ## Usage
 
-1. Prepare a JSON file describing your products. A sample file named
-   `sample_data.json` is included:
+1. Prepare a JSON file describing your products. Each entry should include a
+   unique `sku` identifier. A sample file named `sample_data.json` is included:
 
 ```json
 [
   {
+    "sku": "WID-001",
     "name": "Widget",
     "price": 10.0,
     "externalities": {
