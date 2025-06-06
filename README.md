@@ -40,6 +40,12 @@ You can also display the cost for a single SKU:
 python -m pantopia.cli sample_data.json --sku 11111111-1111-1111-1111-111111111111
 ```
 
+You can search for products using a keyword (case-insensitive):
+
+```bash
+python -m pantopia.cli sample_data.json --search apple
+```
+
 ## Testing
 
 Run the unit tests with:

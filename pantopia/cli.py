@@ -14,6 +14,10 @@ def main():
     parser = argparse.ArgumentParser(description="Calculate real cost of products")
     parser.add_argument("data", help="JSON file with product data")
     parser.add_argument("--sku", help="Display only the product with this SKU")
+    parser.add_argument(
+        "--search",
+        help="Show products whose name or description contains this string",
+    )
     args = parser.parse_args()
 
     data = load_data(args.data)
@@ -21,6 +25,17 @@ def main():
         data = [item for item in data if item.sku == args.sku]
         if not data:
             print(f"SKU {args.sku} not found", file=sys.stderr)
+            return
+
+    if args.search:
+        query = args.search.lower()
+        data = [
+            item
+            for item in data
+            if query in item.name.lower() or query in item.description.lower()
+        ]
+        if not data:
+            print(f'No products found matching "{args.search}"', file=sys.stderr)
             return
 
     for item in data:
