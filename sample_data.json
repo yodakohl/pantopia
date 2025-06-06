@@ -1,41 +1,6074 @@
 [
   {
-    "sku": "11111111-1111-1111-1111-111111111111",
-    "name": "Widget",
-    "description": "A standard widget",
-    "origin": "USA",
-    "price": 10.0,
+    "sku": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "name": "Apple iPhone 15 Pro (128GB)",
+    "description": "Apple's flagship smartphone, titanium frame, advanced camera system. (Model MQC23LL/A)",
+    "origin": "China",
+    "price": 999.00,
     "externalities": {
-      "carbon": 1.0,
-      "labor": 0.5,
-      "resources": 0.25,
-      "waste": 0.25
+      "carbon": 85.0,
+      "labor": 7.5,
+      "resources": 28.0,
+      "waste": 0.28
     }
   },
   {
-    "sku": "22222222-2222-2222-2222-222222222222",
-    "name": "Gadget",
-    "description": "A useful gadget",
-    "origin": "Canada",
-    "price": 15.0,
+    "sku": "b2c3d4e5-f678-9012-3456-7890abcdef01",
+    "name": "Levi's Men's 501 Original Fit Jeans (Indigo)",
+    "description": "Classic straight-leg jeans, iconic denim style. (Product 005010193)",
+    "origin": "Bangladesh",
+    "price": 79.50,
     "externalities": {
-      "carbon": 2.0,
-      "labor": 0.7,
+      "carbon": 16.0,
+      "labor": 1.5,
+      "resources": 5.5,
+      "waste": 0.12
+    }
+  },
+  {
+    "sku": "c3d4e5f6-7890-1234-5678-90abcdef0123",
+    "name": "Starbucks Pike Place Roast Coffee (Grande, Disposable Cup)",
+    "description": "A single serving of medium-roast brewed coffee in a disposable cup. (Common item #5223)",
+    "origin": "USA (brew), Global (beans)",
+    "price": 3.75,
+    "externalities": {
+      "carbon": 0.35,
+      "labor": 0.08,
+      "resources": 0.03,
+      "waste": 0.035
+    }
+  },
+  {
+    "sku": "d4e5f6a1-b2c3-d4e5-f6a1-b2c3d4e5f6a1",
+    "name": "Dyson V11 Torque Drive Cordless Vacuum Cleaner",
+    "description": "Powerful cordless stick vacuum with intelligent cleaning modes. (Model 394464-01)",
+    "origin": "Malaysia",
+    "price": 599.99,
+    "externalities": {
+      "carbon": 120.0,
+      "labor": 3.0,
+      "resources": 18.0,
+      "waste": 1.5
+    }
+  },
+  {
+    "sku": "e5f6a1b2-c3d4-e5f6-a1b2-c3d4e5f6a1b2",
+    "name": "Coca-Cola Classic (12 oz Aluminum Can)",
+    "description": "A single serving of original Coca-Cola in an aluminum can. (Common UPC/item)",
+    "origin": "USA",
+    "price": 1.99,
+    "externalities": {
+      "carbon": 0.15,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "f6a1b2c3-d4e5-f6a1-b2c3-d4e5f6a1b2c3",
+    "name": "The Great Gatsby by F. Scott Fitzgerald (Paperback)",
+    "description": "A classic American novel in standard paperback format. (ISBN 978-0743273565)",
+    "origin": "USA",
+    "price": 18.00,
+    "externalities": {
+      "carbon": 0.45,
+      "labor": 0.07,
+      "resources": 0.08,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "1234abcd-5678-efab-cdef-1234567890ab",
+    "name": "Netflix Standard Subscription (1 Month)",
+    "description": "One month of streaming access to Netflix's standard plan content.",
+    "origin": "USA (Company HQ), Global (Data Centers)",
+    "price": 15.49,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.0005,
+      "waste": 0.00005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000001",
+    "name": "Toyota Camry LE (New Car Purchase)",
+    "description": "A new 2024 Toyota Camry LE, base model. Price does not include fuel/maintenance.",
+    "origin": "USA",
+    "price": 27000.00,
+    "externalities": {
+      "carbon": 6000.0,
+      "labor": 20.0,
+      "resources": 500.0,
+      "waste": 50.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000002",
+    "name": "Organic Gala Apple (Single)",
+    "description": "One organic Gala apple, typical grocery store size.",
+    "origin": "USA",
+    "price": 0.99,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000003",
+    "name": "Beyond Burger Plant-Based Patties (2-pack)",
+    "description": "Two plant-based burger patties from Beyond Meat.",
+    "origin": "USA",
+    "price": 5.99,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000004",
+    "name": "Bic Cristal Ballpoint Pen (Single)",
+    "description": "A standard blue Bic Cristal original ballpoint pen.",
+    "origin": "France",
+    "price": 0.50,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000005",
+    "name": "IKEA MALM 6-Drawer Dresser",
+    "description": "A popular dresser from IKEA's MALM series, particleboard construction. (Article 002.145.57)",
+    "origin": "Poland",
+    "price": 199.00,
+    "externalities": {
+      "carbon": 40.0,
+      "labor": 0.8,
+      "resources": 15.0,
+      "waste": 3.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000006",
+    "name": "Philips Hue White E26 Smart Bulb (Single)",
+    "description": "A single white smart LED bulb, controllable via app. (Model 929001821612)",
+    "origin": "China",
+    "price": 14.99,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000007",
+    "name": "Google Pixel Buds Pro",
+    "description": "Premium wireless earbuds with active noise cancellation and transparency mode. (Model GA03203-US)",
+    "origin": "Vietnam",
+    "price": 199.99,
+    "externalities": {
+      "carbon": 15.0,
+      "labor": 0.8,
+      "resources": 2.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000008",
+    "name": "One-way Flight (NYC to LAX, Economy)",
+    "description": "A typical domestic one-way flight from New York to Los Angeles.",
+    "origin": "Global (airline operations)",
+    "price": 250.00,
+    "externalities": {
+      "carbon": 250.0,
+      "labor": 0.1,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000009",
+    "name": "Amazon Web Services (AWS) EC2 T3.medium (1 month)",
+    "description": "Cost of running a small virtual server instance on AWS for one month.",
+    "origin": "USA (Data Center)",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.0001,
+      "waste": 0.00001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000010",
+    "name": "Reusable Shopping Bag (Cotton)",
+    "description": "A standard reusable cotton tote bag for groceries.",
+    "origin": "India",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.03,
+      "resources": 0.05,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000011",
+    "name": "Disposable Surgical Mask (Single)",
+    "description": "A single-use 3-ply non-woven disposable surgical mask.",
+    "origin": "China",
+    "price": 0.20,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.001,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000012",
+    "name": "Samsung 55-inch QLED 4K Smart TV",
+    "description": "High-resolution smart TV with QLED technology and smart features. (Model QN55Q60AAFXZA)",
+    "origin": "Mexico",
+    "price": 799.99,
+    "externalities": {
+      "carbon": 150.0,
+      "labor": 4.0,
+      "resources": 20.0,
+      "waste": 2.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000013",
+    "name": "Plastic Water Bottle (500ml)",
+    "description": "A single 500ml bottle of purified drinking water.",
+    "origin": "USA",
+    "price": 1.50,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000014",
+    "name": "Adidas Ultraboost 23 Running Shoes (Men's)",
+    "description": "Performance running shoes with Boost cushioning and Primeknit upper. (Model HQ9639)",
+    "origin": "Vietnam",
+    "price": 190.00,
+    "externalities": {
+      "carbon": 14.0,
+      "labor": 1.4,
+      "resources": 4.0,
+      "waste": 0.09
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000015",
+    "name": "Ground Beef (1 lb, 80/20 lean)",
+    "description": "One pound of 80% lean, 20% fat ground beef.",
+    "origin": "USA",
+    "price": 6.99,
+    "externalities": {
+      "carbon": 12.0,
+      "labor": 0.1,
       "resources": 0.5,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000016",
+    "name": "Almond Milk (1/2 Gallon, Unsweetened)",
+    "description": "Half-gallon carton of unsweetened almond milk.",
+    "origin": "USA",
+    "price": 4.29,
+    "externalities": {
+      "carbon": 0.7,
+      "labor": 0.03,
+      "resources": 0.3,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000017",
+    "name": "Toilet Paper (Single Roll, Standard)",
+    "description": "One roll of conventional two-ply toilet paper.",
+    "origin": "Canada",
+    "price": 0.80,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.03,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000018",
+    "name": "Amazon Echo Dot (5th Gen)",
+    "description": "Compact smart speaker with Alexa voice assistant. (Model B09B42K5C2)",
+    "origin": "China",
+    "price": 49.99,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.5,
+      "resources": 1.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000019",
+    "name": "Laptop Backpack (Standard Size)",
+    "description": "A durable backpack designed to carry a laptop and daily essentials.",
+    "origin": "Vietnam",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.4,
+      "resources": 0.8,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000020",
+    "name": "Dish Soap (20 oz Bottle)",
+    "description": "A standard bottle of liquid dish soap.",
+    "origin": "USA",
+    "price": 3.50,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.01,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000021",
+    "name": "Dining Chair (Wooden, Single)",
+    "description": "A single wooden dining chair, assembled.",
+    "origin": "Vietnam",
+    "price": 75.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.6,
+      "resources": 5.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000022",
+    "name": "Printer Paper (500-sheet ream)",
+    "description": "A standard ream of 8.5x11 inch white printer paper.",
+    "origin": "Canada",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000023",
+    "name": "Deodorant Stick (Standard Size)",
+    "description": "A common anti-perspirant/deodorant stick.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.005,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000024",
+    "name": "Bar of Soap (Standard)",
+    "description": "A basic bar of bath soap.",
+    "origin": "Malaysia",
+    "price": 1.50,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.003,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000025",
+    "name": "Cotton Swabs (Box of 300)",
+    "description": "A large box of standard cotton swabs.",
+    "origin": "China",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.06,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.008
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000026",
+    "name": "LED Light Bulb (Standard A19)",
+    "description": "An energy-efficient LED light bulb, equivalent to 60W incandescent.",
+    "origin": "China",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.005,
+      "resources": 0.008,
+      "waste": 0.003
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000027",
+    "name": "Laundry Detergent (50 oz bottle)",
+    "description": "A medium-sized bottle of liquid laundry detergent.",
+    "origin": "USA",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.03,
+      "resources": 0.05,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000028",
+    "name": "Disposable Razor (5-pack)",
+    "description": "A pack of 5 disposable twin-blade razors.",
+    "origin": "Mexico",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.008,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000029",
+    "name": "Stainless Steel Frying Pan (10-inch)",
+    "description": "A durable 10-inch stainless steel frying pan.",
+    "origin": "China",
+    "price": 35.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.1,
+      "resources": 0.8,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000030",
+    "name": "Cotton Bath Towel (Standard)",
+    "description": "A single, standard-sized cotton bath towel.",
+    "origin": "Pakistan",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000031",
+    "name": "Glass Drinking Tumbler (Single)",
+    "description": "A single, clear glass drinking tumbler.",
+    "origin": "China",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000032",
+    "name": "Wooden Spoon (Single)",
+    "description": "A single basic wooden cooking spoon.",
+    "origin": "India",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000033",
+    "name": "Coffee Pods (12-pack, plastic)",
+    "description": "A 12-pack of single-serve coffee pods with plastic capsules.",
+    "origin": "USA",
+    "price": 9.00,
+    "externalities": {
+      "carbon": 0.4,
+      "labor": 0.03,
+      "resources": 0.05,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000034",
+    "name": "Laptop Charger (Universal)",
+    "description": "A replacement universal laptop power adapter.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000035",
+    "name": "Dog Food (15 lb bag, Dry Kibble)",
+    "description": "A 15-pound bag of standard dry dog food kibble.",
+    "origin": "USA",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000036",
+    "name": "Cat Litter (20 lb bag, Clay)",
+    "description": "A 20-pound bag of non-clumping clay cat litter.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.03,
+      "resources": 0.2,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000037",
+    "name": "Hair Dryer (Standard)",
+    "description": "A basic, electric hair dryer.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000038",
+    "name": "Paper Towels (Single Roll)",
+    "description": "One roll of absorbent paper towels.",
+    "origin": "USA",
+    "price": 2.50,
+    "externalities": {
+      "carbon": 0.15,
+      "labor": 0.01,
+      "resources": 0.04,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000039",
+    "name": "Disposable Diapers (Single)",
+    "description": "One single disposable baby diaper.",
+    "origin": "USA",
+    "price": 0.30,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000040",
+    "name": "Car Tire (Single, New)",
+    "description": "A single new all-season car tire.",
+    "origin": "South Korea",
+    "price": 120.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 0.5,
+      "resources": 5.0,
+      "waste": 2.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000041",
+    "name": "Desktop Computer (Mid-Range)",
+    "description": "A pre-built mid-range desktop computer tower.",
+    "origin": "China",
+    "price": 800.00,
+    "externalities": {
+      "carbon": 200.0,
+      "labor": 6.0,
+      "resources": 40.0,
+      "waste": 3.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000042",
+    "name": "Desktop Monitor (24-inch LED)",
+    "description": "A 24-inch LED computer monitor.",
+    "origin": "China",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 30.0,
+      "labor": 1.0,
+      "resources": 5.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000043",
+    "name": "Computer Keyboard (Wired)",
+    "description": "A standard wired computer keyboard.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000044",
+    "name": "Computer Mouse (Wired)",
+    "description": "A standard wired computer mouse.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.4,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000045",
+    "name": "Inkjet Printer (Entry-Level)",
+    "description": "A basic inkjet printer for home use.",
+    "origin": "Vietnam",
+    "price": 80.00,
+    "externalities": {
+      "carbon": 15.0,
+      "labor": 0.7,
+      "resources": 2.0,
       "waste": 0.3
     }
   },
   {
-    "sku": "33333333-3333-3333-3333-333333333333",
-    "name": "Thingamajig",
-    "description": "An advanced thingamajig",
-    "origin": "Germany",
-    "price": 20.0,
+    "sku": "00000000-0000-0000-0000-000000000046",
+    "name": "Printer Ink Cartridge (Single)",
+    "description": "A single standard-capacity inkjet printer ink cartridge.",
+    "origin": "Malaysia",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.03,
+      "resources": 0.05,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000047",
+    "name": "USB Flash Drive (32GB)",
+    "description": "A 32GB USB 3.0 flash drive.",
+    "origin": "Taiwan",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000048",
+    "name": "Coffee Table (Wooden)",
+    "description": "A standard wooden coffee table for a living room.",
+    "origin": "China",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 25.0,
+      "labor": 0.7,
+      "resources": 10.0,
+      "waste": 1.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000049",
+    "name": "Pillow (Standard)",
+    "description": "A single standard size bed pillow.",
+    "origin": "USA",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000050",
+    "name": "Bed Sheet Set (Queen, Cotton)",
+    "description": "A queen-sized cotton bed sheet set (flat, fitted, 2 pillowcases).",
+    "origin": "India",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.8,
+      "resources": 2.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000051",
+    "name": "Desk Lamp (LED)",
+    "description": "An adjustable LED desk lamp.",
+    "origin": "China",
+    "price": 40.00,
     "externalities": {
       "carbon": 1.5,
+      "labor": 0.15,
+      "resources": 0.3,
+      "waste": 0.04
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000052",
+    "name": "Textbook (College Level, New)",
+    "description": "A new college-level textbook for an introductory course.",
+    "origin": "USA",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000053",
+    "name": "Notebook (Spiral Bound, 1-Subject)",
+    "description": "A single 1-subject spiral-bound notebook.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000054",
+    "name": "Backpack (School/Daypack)",
+    "description": "A standard backpack for school or day trips.",
+    "origin": "Vietnam",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.3,
+      "resources": 0.7,
+      "waste": 0.07
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000055",
+    "name": "Running Water (1,000 Liters / 1 Cubic Meter)",
+    "description": "The cost and externalities associated with 1,000 liters of treated tap water.",
+    "origin": "Local Water Treatment Plant",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.001,
+      "waste": 0.0001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000056",
+    "name": "Electricity (100 kWh)",
+    "description": "Cost and externalities of 100 kilowatt-hours of electricity.",
+    "origin": "Local Power Grid",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 40.0,
+      "labor": 0.005,
+      "resources": 0.002,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000057",
+    "name": "Natural Gas (1 Therm / 100 Cubic Feet)",
+    "description": "Cost and externalities of 1 therm (approx 100 cubic feet) of natural gas.",
+    "origin": "Local Gas Utility",
+    "price": 1.20,
+    "externalities": {
+      "carbon": 5.3,
+      "labor": 0.001,
+      "resources": 0.0001,
+      "waste": 0.00001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000058",
+    "name": "Public Transit Ride (Single Bus/Subway Ticket)",
+    "description": "A single ride on a city's public bus or subway system.",
+    "origin": "Local Transit Authority",
+    "price": 2.75,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.001,
+      "waste": 0.0001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000059",
+    "name": "Gallon of Gasoline (US Gallon)",
+    "description": "The cost and externalities of one US gallon of regular unleaded gasoline.",
+    "origin": "Global (crude oil), USA (refinery)",
+    "price": 3.50,
+    "externalities": {
+      "carbon": 8.8,
+      "labor": 0.005,
+      "resources": 0.005,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000060",
+    "name": "Concert Ticket (Major Artist)",
+    "description": "A single general admission ticket to a major artist's concert.",
+    "origin": "Local Venue",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.1,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000061",
+    "name": "Disposable Coffee Filter (Single)",
+    "description": "A single paper coffee filter for drip coffee makers.",
+    "origin": "USA",
+    "price": 0.05,
+    "externalities": {
+      "carbon": 0.002,
+      "labor": 0.0001,
+      "resources": 0.0002,
+      "waste": 0.0001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000062",
+    "name": "Reusable Coffee Filter (Permanent)",
+    "description": "A permanent, reusable coffee filter, typically made of mesh or metal.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000063",
+    "name": "Smartphone Screen Protector (Glass)",
+    "description": "A tempered glass screen protector for a smartphone.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000064",
+    "name": "Gaming Console (New Generation)",
+    "description": "A brand new current-generation video game console (e.g., PS5, Xbox Series X).",
+    "origin": "China",
+    "price": 499.00,
+    "externalities": {
+      "carbon": 100.0,
+      "labor": 5.0,
+      "resources": 20.0,
+      "waste": 1.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000065",
+    "name": "Video Game (Digital Download)",
+    "description": "A full-priced digital download of a new video game.",
+    "origin": "Global (Development Studio), Cloud (Distribution)",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.0001,
+      "waste": 0.00001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000066",
+    "name": "Video Game (Physical Disc)",
+    "description": "A full-priced physical disc copy of a new video game.",
+    "origin": "USA (Disc production), Global (Development)",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000067",
+    "name": "Pair of Socks (Cotton)",
+    "description": "A single pair of basic cotton socks.",
+    "origin": "China",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000068",
+    "name": "Winter Coat (Down/Synthetic)",
+    "description": "A warm winter coat, insulated with down or synthetic fill.",
+    "origin": "Vietnam",
+    "price": 250.00,
+    "externalities": {
+      "carbon": 30.0,
+      "labor": 3.0,
+      "resources": 10.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000069",
+    "name": "Leather Wallet",
+    "description": "A standard bifold leather wallet.",
+    "origin": "India",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000070",
+    "name": "Headphones (Over-Ear, Wired)",
+    "description": "A basic pair of wired, over-ear headphones.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000071",
+    "name": "Headphones (Wireless, Noise Cancelling)",
+    "description": "Premium wireless, noise-cancelling over-ear headphones.",
+    "origin": "China",
+    "price": 250.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.4,
+      "resources": 1.5,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000072",
+    "name": "Smart Speaker (Medium size, e.g., Google Nest Audio)",
+    "description": "A mid-sized smart speaker with integrated voice assistant.",
+    "origin": "China",
+    "price": 99.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.6,
+      "resources": 2.0,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000073",
+    "name": "Robot Vacuum Cleaner",
+    "description": "An autonomous robot vacuum for hands-free floor cleaning.",
+    "origin": "China",
+    "price": 300.00,
+    "externalities": {
+      "carbon": 20.0,
       "labor": 1.0,
-      "resources": 0.75,
+      "resources": 5.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000074",
+    "name": "Electric Toothbrush",
+    "description": "A rechargeable electric toothbrush with multiple brush modes.",
+    "origin": "Germany",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000075",
+    "name": "Toothbrush Head (Replacement, Single)",
+    "description": "A single replacement head for an electric toothbrush.",
+    "origin": "Germany",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000076",
+    "name": "Shampoo (12 oz bottle)",
+    "description": "A standard bottle of liquid shampoo.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000077",
+    "name": "Conditioner (12 oz bottle)",
+    "description": "A standard bottle of liquid hair conditioner.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000078",
+    "name": "Sunscreen (6 oz bottle)",
+    "description": "A bottle of broad-spectrum SPF 30 sunscreen lotion.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.01,
+      "resources": 0.015,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000079",
+    "name": "Reusable Face Mask (Cotton)",
+    "description": "A washable, reusable cotton face mask.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000080",
+    "name": "Hand Sanitizer (8 oz bottle)",
+    "description": "An 8 oz bottle of alcohol-based hand sanitizer.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.005,
+      "resources": 0.008,
+      "waste": 0.008
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000081",
+    "name": "Desktop Computer (High-End Gaming)",
+    "description": "A powerful pre-built gaming desktop with high-end components.",
+    "origin": "China",
+    "price": 2500.00,
+    "externalities": {
+      "carbon": 300.0,
+      "labor": 8.0,
+      "resources": 60.0,
+      "waste": 5.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000082",
+    "name": "Graphics Card (High-End)",
+    "description": "A high-performance dedicated graphics card for gaming/professional use.",
+    "origin": "Taiwan",
+    "price": 800.00,
+    "externalities": {
+      "carbon": 50.0,
+      "labor": 2.0,
+      "resources": 10.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000083",
+    "name": "Central Processing Unit (CPU)",
+    "description": "A high-performance computer processor.",
+    "origin": "Taiwan",
+    "price": 350.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 0.5,
+      "resources": 3.0,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000084",
+    "name": "RAM (16GB DDR4 Module)",
+    "description": "A 16GB stick of DDR4 RAM for a computer.",
+    "origin": "South Korea",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000085",
+    "name": "Solid State Drive (SSD, 1TB)",
+    "description": "A 1TB internal solid-state drive for data storage.",
+    "origin": "South Korea",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.15,
+      "resources": 0.5,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000086",
+    "name": "Router (Wi-Fi 6)",
+    "description": "A modern Wi-Fi 6 wireless router for home internet.",
+    "origin": "China",
+    "price": 120.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000087",
+    "name": "Smart Thermostat (e.g., Nest/Ecobee)",
+    "description": "An intelligent thermostat for home climate control.",
+    "origin": "China",
+    "price": 180.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.4,
+      "resources": 1.5,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000088",
+    "name": "Smart Doorbell (e.g., Ring/Nest)",
+    "description": "A video doorbell with smart features and motion detection.",
+    "origin": "China",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 7.0,
+      "labor": 0.4,
+      "resources": 1.2,
+      "waste": 0.07
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000089",
+    "name": "Solar Panel (Single Residential)",
+    "description": "A single solar panel for residential rooftop installation.",
+    "origin": "China",
+    "price": 250.00,
+    "externalities": {
+      "carbon": 100.0,
+      "labor": 5.0,
+      "resources": 30.0,
+      "waste": 5.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000090",
+    "name": "Electric Bicycle (E-bike)",
+    "description": "An electric-assist bicycle with a rechargeable battery.",
+    "origin": "China",
+    "price": 1500.00,
+    "externalities": {
+      "carbon": 50.0,
+      "labor": 2.0,
+      "resources": 10.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000091",
+    "name": "Adult Bicycle (Standard)",
+    "description": "A non-electric adult bicycle for commuting or recreation.",
+    "origin": "Taiwan",
+    "price": 400.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.5,
+      "resources": 3.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000092",
+    "name": "Running Shoes (Entry Level)",
+    "description": "An affordable pair of running shoes for casual use.",
+    "origin": "Vietnam",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.8,
+      "resources": 2.5,
+      "waste": 0.06
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000093",
+    "name": "Yoga Mat (Standard)",
+    "description": "A typical PVC or TPE yoga mat.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000094",
+    "name": "Water Filter Pitcher",
+    "description": "A Brita or similar water filter pitcher.",
+    "origin": "Mexico",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000095",
+    "name": "Water Filter Cartridge (Replacement)",
+    "description": "A single replacement filter cartridge for a water filter pitcher.",
+    "origin": "Mexico",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000096",
+    "name": "Reusable Food Container (Glass, Single)",
+    "description": "A single glass food storage container with a plastic lid.",
+    "origin": "China",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000097",
+    "name": "Reusable Sandwich Bag (Silicone)",
+    "description": "A single reusable silicone bag for sandwiches or snacks.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000098",
+    "name": "Metal Straws (4-pack with cleaner)",
+    "description": "A pack of four reusable metal straws with a cleaning brush.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000099",
+    "name": "Solar Powered Garden Light (Single)",
+    "description": "A small solar-powered LED light for outdoor garden illumination.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000100",
+    "name": "Outdoor Camping Tent (2-person)",
+    "description": "A lightweight 2-person camping tent.",
+    "origin": "China",
+    "price": 120.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000101",
+    "name": "Sleeping Bag (Summer)",
+    "description": "A lightweight sleeping bag suitable for summer camping.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000102",
+    "name": "Propane Grill (Large, 4-burner)",
+    "description": "A large outdoor propane gas grill with four burners.",
+    "origin": "China",
+    "price": 400.00,
+    "externalities": {
+      "carbon": 80.0,
+      "labor": 2.0,
+      "resources": 15.0,
+      "waste": 5.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000103",
+    "name": "Garden Hose (50 ft)",
+    "description": "A 50-foot garden hose made of vinyl.",
+    "origin": "USA",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.05,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000104",
+    "name": "Lawn Mower (Electric, Corded)",
+    "description": "A corded electric push lawn mower.",
+    "origin": "USA",
+    "price": 200.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.5,
+      "resources": 3.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000105",
+    "name": "Garden Shovel",
+    "description": "A standard garden shovel with a wooden handle.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000106",
+    "name": "Bag of Potting Soil (2 cubic feet)",
+    "description": "A large bag of all-purpose potting soil.",
+    "origin": "USA",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.02,
+      "resources": 0.1,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000107",
+    "name": "Plant Pot (Terracotta, 10-inch)",
+    "description": "A single 10-inch terracotta plant pot.",
+    "origin": "Mexico",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000108",
+    "name": "Ficus Lyrata (Fiddle Leaf Fig Tree, Small)",
+    "description": "A small, potted Fiddle Leaf Fig houseplant.",
+    "origin": "Florida, USA",
+    "price": 35.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000109",
+    "name": "Wooden Picture Frame (8x10 inch)",
+    "description": "A simple wooden picture frame for an 8x10 inch photo.",
+    "origin": "China",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000110",
+    "name": "Painting (Small, Canvas Print)",
+    "description": "A small decorative canvas print of a painting.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000111",
+    "name": "Scented Candle (Soy Wax)",
+    "description": "A soy wax scented candle in a glass jar.",
+    "origin": "USA",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000112",
+    "name": "Disposable Plastic Cutlery (Fork, Single)",
+    "description": "A single plastic disposable fork.",
+    "origin": "China",
+    "price": 0.02,
+    "externalities": {
+      "carbon": 0.001,
+      "labor": 0.0001,
+      "resources": 0.0001,
+      "waste": 0.0001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000113",
+    "name": "Ceramic Mug (Single)",
+    "description": "A single ceramic coffee mug.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.1,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000114",
+    "name": "Pair of Chopsticks (Reusable, Bamboo)",
+    "description": "A pair of reusable bamboo chopsticks.",
+    "origin": "China",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.005,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000115",
+    "name": "Plastic Trash Bag (Large, Single)",
+    "description": "A single large black plastic trash bag (30-gallon).",
+    "origin": "USA",
+    "price": 0.25,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.001,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000116",
+    "name": "Toilet Brush with Holder",
+    "description": "A standard toilet brush with a matching holder.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000117",
+    "name": "Floor Mop (Standard)",
+    "description": "A standard string or sponge floor mop.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000118",
+    "name": "Broom and Dustpan Set",
+    "description": "A basic broom and dustpan set.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.7,
+      "labor": 0.05,
+      "resources": 0.15,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000119",
+    "name": "Vacuum Cleaner Bags (5-pack)",
+    "description": "A pack of 5 disposable vacuum cleaner bags.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000120",
+    "name": "Dryer Sheets (Box of 80)",
+    "description": "A box of 80 standard fabric softener dryer sheets.",
+    "origin": "USA",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000121",
+    "name": "Men's Dress Shirt (Cotton)",
+    "description": "A long-sleeved, collared cotton dress shirt for formal or business wear.",
+    "origin": "Vietnam",
+    "price": 45.00,
+    "externalities": {
+      "carbon": 4.0,
+      "labor": 0.5,
+      "resources": 1.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000122",
+    "name": "Women's Blouse (Polyester)",
+    "description": "A lightweight polyester blouse for casual or office wear.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.4,
+      "resources": 1.0,
+      "waste": 0.04
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000123",
+    "name": "Baby Onesie (Organic Cotton)",
+    "description": "A soft organic cotton onesie for infants.",
+    "origin": "India",
+    "price": 18.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.2,
+      "resources": 0.4,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000124",
+    "name": "Winter Gloves (Wool)",
+    "description": "A warm pair of wool winter gloves.",
+    "origin": "Nepal",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.15,
+      "resources": 0.3,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000125",
+    "name": "Bath Mat (Cotton)",
+    "description": "A small, absorbent cotton bath mat.",
+    "origin": "India",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.1,
+      "resources": 0.25,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000126",
+    "name": "Coffee Maker (Drip, 12-cup)",
+    "description": "A standard 12-cup electric drip coffee maker.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.15,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000127",
+    "name": "Toaster (2-slice)",
+    "description": "A basic 2-slice electric toaster.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000128",
+    "name": "Blender (Countertop)",
+    "description": "A standard countertop blender for smoothies and purees.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 4.0,
+      "labor": 0.2,
+      "resources": 1.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000129",
+    "name": "Microwave Oven (Countertop)",
+    "description": "A compact countertop microwave oven.",
+    "origin": "China",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 0.8,
+      "resources": 5.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000130",
+    "name": "Hand Mixer (Electric)",
+    "description": "A basic electric hand mixer for baking.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000131",
+    "name": "Air Fryer (Medium)",
+    "description": "A medium-capacity electric air fryer for healthier frying.",
+    "origin": "China",
+    "price": 80.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.3,
+      "resources": 1.2,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000132",
+    "name": "Cast Iron Skillet (10-inch)",
+    "description": "A pre-seasoned 10-inch cast iron frying pan.",
+    "origin": "USA",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 1.0,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000133",
+    "name": "Cutting Board (Plastic)",
+    "description": "A medium-sized plastic cutting board for kitchen use.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000134",
+    "name": "Kitchen Knife (Chef's Knife, 8-inch)",
+    "description": "An 8-inch stainless steel chef's knife.",
+    "origin": "Germany",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.1,
+      "resources": 0.2,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000135",
+    "name": "Water Filter Pitcher (Replacement Filter)",
+    "description": "A single replacement filter for a standard water filter pitcher.",
+    "origin": "Mexico",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000136",
+    "name": "Dishwasher Detergent Pods (30-count)",
+    "description": "A pouch of 30 single-use dishwasher detergent pods.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.15,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000137",
+    "name": "All-Purpose Cleaner Spray (32 oz)",
+    "description": "A spray bottle of multi-surface all-purpose cleaner.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000138",
+    "name": "Sponges (3-pack, Kitchen)",
+    "description": "A pack of three kitchen sponges with a scrubbing side.",
+    "origin": "China",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.005,
+      "resources": 0.015,
+      "waste": 0.008
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000139",
+    "name": "Paper Napkins (Pack of 200)",
+    "description": "A large pack of 200 disposable paper napkins.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000140",
+    "name": "Aluminum Foil (200 sq ft roll)",
+    "description": "A 200 square foot roll of standard aluminum foil.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000141",
+    "name": "Plastic Wrap (200 sq ft roll)",
+    "description": "A 200 square foot roll of clear plastic food wrap.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000142",
+    "name": "Ziploc Bags (Gallon, 20-count)",
+    "description": "A box of 20 gallon-sized resealable plastic bags.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.15,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000143",
+    "name": "Trash Can (13-gallon, Plastic)",
+    "description": "A standard 13-gallon plastic kitchen trash can.",
+    "origin": "USA",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000144",
+    "name": "Laundry Basket (Plastic)",
+    "description": "A basic plastic laundry basket with handles.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000145",
+    "name": "Hangers (Plastic, 10-pack)",
+    "description": "A pack of 10 standard plastic clothes hangers.",
+    "origin": "China",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000146",
+    "name": "Iron (Steam Iron, Basic)",
+    "description": "A basic electric steam iron for clothes.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000147",
+    "name": "Ironing Board (Standard)",
+    "description": "A standard foldable ironing board.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000148",
+    "name": "Sewing Machine (Entry-Level)",
+    "description": "A basic electric sewing machine for beginners.",
+    "origin": "Vietnam",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.8,
+      "resources": 2.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000149",
+    "name": "Thread Spool (Polyester)",
+    "description": "A small spool of polyester sewing thread.",
+    "origin": "China",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000150",
+    "name": "Scissors (All-Purpose)",
+    "description": "A pair of 8-inch all-purpose scissors.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000151",
+    "name": "Tape Measure (Retractable, 25 ft)",
+    "description": "A 25-foot retractable steel tape measure.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000152",
+    "name": "Hammer (Claw Hammer)",
+    "description": "A standard 16 oz claw hammer.",
+    "origin": "China",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000153",
+    "name": "Screwdriver Set (Multi-bit)",
+    "description": "A set of multi-bit screwdrivers with interchangeable heads.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.3,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000154",
+    "name": "Wrench Set (Standard)",
+    "description": "A basic set of combination wrenches.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.15,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000155",
+    "name": "Drill (Cordless, 18V)",
+    "description": "A cordless 18V power drill with battery and charger.",
+    "origin": "China",
+    "price": 99.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.8,
+      "resources": 2.5,
+      "waste": 0.3
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000156",
+    "name": "Drill Bit Set (Assorted)",
+    "description": "A set of assorted drill bits for wood, metal, and plastic.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000157",
+    "name": "Paint Brush (2-inch)",
+    "description": "A single 2-inch synthetic bristle paint brush.",
+    "origin": "China",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.005,
+      "resources": 0.015,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000158",
+    "name": "Gallon of Latex Paint (Interior, White)",
+    "description": "One gallon of standard interior latex wall paint, white color.",
+    "origin": "USA",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.1,
+      "resources": 0.8,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000159",
+    "name": "Extension Cord (15 ft, Outdoor)",
+    "description": "A 15-foot heavy-duty outdoor extension cord.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000160",
+    "name": "Smoke Detector (Battery-Powered)",
+    "description": "A standard battery-powered smoke and carbon monoxide detector.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000161",
+    "name": "Fire Extinguisher (Home Use)",
+    "description": "A small dry chemical fire extinguisher for residential use.",
+    "origin": "USA",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000162",
+    "name": "First Aid Kit (Basic Home)",
+    "description": "A small first aid kit for minor injuries at home.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000163",
+    "name": "Band-Aids (Box of 100)",
+    "description": "A box of 100 assorted adhesive bandages.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000164",
+    "name": "Pain Reliever (Bottle of 100 tablets)",
+    "description": "A bottle of 100 generic acetaminophen or ibuprofen tablets.",
+    "origin": "India",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.003,
+      "resources": 0.005,
+      "waste": 0.003
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000165",
+    "name": "Cough Syrup (8 oz bottle)",
+    "description": "An 8 oz bottle of over-the-counter cough syrup.",
+    "origin": "USA",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000166",
+    "name": "Vitamins (Bottle of 90, Multivitamin)",
+    "description": "A bottle of 90 daily multivitamin tablets.",
+    "origin": "USA",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000167",
+    "name": "Cat Food (5 lb bag, Dry Kibble)",
+    "description": "A 5-pound bag of standard dry cat food kibble.",
+    "origin": "USA",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000168",
+    "name": "Fish Food (Small Container)",
+    "description": "A small container of flake fish food.",
+    "origin": "Germany",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000169",
+    "name": "Bird Seed (5 lb bag)",
+    "description": "A 5-pound bag of mixed bird seed for wild birds.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.02,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000170",
+    "name": "Garden Gloves (Pair)",
+    "description": "A pair of basic garden gloves.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000171",
+    "name": "Hand Trowel (Garden)",
+    "description": "A small hand trowel for gardening.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000172",
+    "name": "Bag of Mulch (2 cubic feet)",
+    "description": "A large bag of shredded wood mulch for gardening.",
+    "origin": "USA",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000173",
+    "name": "Flowering Plant (Small Potted)",
+    "description": "A small potted seasonal flowering plant.",
+    "origin": "USA (Local Nursery)",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000174",
+    "name": "Fertilizer (1 lb, All-Purpose)",
+    "description": "A 1-pound box of all-purpose granular plant fertilizer.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000175",
+    "name": "Garden Seeds (Packet)",
+    "description": "A packet of vegetable or flower seeds for home gardening.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000176",
+    "name": "Children's Book (Hardcover)",
+    "description": "A new hardcover picture book for young children.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.03,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000177",
+    "name": "Board Game (Standard)",
+    "description": "A popular family board game.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000178",
+    "name": "Jigsaw Puzzle (1000 pieces)",
+    "description": "A 1000-piece jigsaw puzzle for adults.",
+    "origin": "USA",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000179",
+    "name": "Crayons (Box of 24)",
+    "description": "A box of 24 non-toxic wax crayons.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.003
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000180",
+    "name": "Markers (Set of 12, Washable)",
+    "description": "A set of 12 washable markers for children.",
+    "origin": "China",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.008,
+      "resources": 0.015,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000181",
+    "name": "Colored Pencils (Set of 24)",
+    "description": "A set of 24 wooden colored pencils.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000182",
+    "name": "Glue Stick (Single)",
+    "description": "A single non-toxic glue stick for paper.",
+    "origin": "USA",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000183",
+    "name": "Construction Paper (50 sheets, Assorted Colors)",
+    "description": "A pack of 50 sheets of assorted color construction paper.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000184",
+    "name": "Modelling Clay (Small Pack)",
+    "description": "A small pack of multi-colored non-drying modelling clay.",
+    "origin": "China",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000185",
+    "name": "Toy Car (Die-Cast, Small)",
+    "description": "A single die-cast metal toy car.",
+    "origin": "China",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000186",
+    "name": "Doll (Standard Size, Plastic)",
+    "description": "A standard plastic fashion doll.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000187",
+    "name": "Building Blocks (Small Set, Plastic)",
+    "description": "A small set of interlocking plastic building blocks.",
+    "origin": "Denmark",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.1,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000188",
+    "name": "Stuffed Animal (Small)",
+    "description": "A small plush stuffed animal toy.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000189",
+    "name": "Tricycle (Child's)",
+    "description": "A child's tricycle for outdoor play.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000190",
+    "name": "Scooter (Kick Scooter, Adult)",
+    "description": "A folding kick scooter for adults.",
+    "origin": "China",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.4,
+      "resources": 2.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000191",
+    "name": "Skateboard (Standard)",
+    "description": "A complete standard skateboard.",
+    "origin": "China",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 6.0,
+      "labor": 0.3,
+      "resources": 1.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000192",
+    "name": "Basketball (Standard Size)",
+    "description": "A standard size 7 basketball.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000193",
+    "name": "Soccer Ball (Standard Size 5)",
+    "description": "A standard size 5 soccer ball.",
+    "origin": "Pakistan",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.1,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000194",
+    "name": "Yoga Block (Cork)",
+    "description": "A single yoga block made from cork.",
+    "origin": "Portugal",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000195",
+    "name": "Dumbbells (Pair, 10lb)",
+    "description": "A pair of 10-pound fixed-weight dumbbells.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000196",
+    "name": "Resistance Bands (Set of 3)",
+    "description": "A set of three resistance bands with varying tension levels.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000197",
+    "name": "Electric Guitar (Entry-Level)",
+    "description": "A basic electric guitar and amplifier starter pack.",
+    "origin": "Indonesia",
+    "price": 200.00,
+    "externalities": {
+      "carbon": 15.0,
+      "labor": 1.0,
+      "resources": 5.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000198",
+    "name": "Acoustic Guitar (Entry-Level)",
+    "description": "A basic acoustic guitar, suitable for beginners.",
+    "origin": "China",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.8,
+      "resources": 3.0,
+      "waste": 0.3
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000199",
+    "name": "Piano Keyboard (Digital, 61-Key)",
+    "description": "A 61-key digital piano keyboard with basic features.",
+    "origin": "China",
+    "price": 180.00,
+    "externalities": {
+      "carbon": 12.0,
+      "labor": 0.8,
+      "resources": 4.0,
       "waste": 0.4
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000200",
+    "name": "Ukulele (Soprano)",
+    "description": "A small soprano ukulele, suitable for beginners.",
+    "origin": "Indonesia",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000201",
+    "name": "Art Paint Set (Acrylic, 12 colors)",
+    "description": "A set of 12 small tubes of acrylic paint.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000202",
+    "name": "Paint Brushes (Set, Assorted)",
+    "description": "A set of assorted paint brushes for art and crafts.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000203",
+    "name": "Canvas (Stretched, 16x20 inch)",
+    "description": "A single stretched canvas for painting.",
+    "origin": "China",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000204",
+    "name": "Sketchbook (Hardcover, 9x12 inch)",
+    "description": "A hardcover sketchbook with acid-free paper.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.15,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000205",
+    "name": "Drawing Pencils (Set of 12)",
+    "description": "A set of 12 graphite drawing pencils with varying hardness.",
+    "origin": "Germany",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.005,
+      "resources": 0.015,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000206",
+    "name": "Digital Drawing Tablet (Small)",
+    "description": "A small entry-level digital drawing tablet with a stylus.",
+    "origin": "China",
+    "price": 80.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000207",
+    "name": "Webcam (1080p HD)",
+    "description": "A 1080p high-definition webcam for video calls.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000208",
+    "name": "Microphone (USB, Basic)",
+    "description": "A basic USB microphone for recording or online communication.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.15,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000209",
+    "name": "External Hard Drive (1TB, Portable)",
+    "description": "A 1TB portable external hard drive for data backup.",
+    "origin": "Thailand",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000210",
+    "name": "Router (Mesh Wi-Fi System, 2-pack)",
+    "description": "A two-pack mesh Wi-Fi system for expanded home network coverage.",
+    "origin": "China",
+    "price": 180.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.6,
+      "resources": 2.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000211",
+    "name": "Security Camera (Smart, Indoor)",
+    "description": "A Wi-Fi enabled indoor smart security camera.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.15,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000212",
+    "name": "Smart Light Strip (LED)",
+    "description": "A flexible, color-changing smart LED light strip.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000213",
+    "name": "Smart Plug (Single)",
+    "description": "A Wi-Fi enabled smart plug to control appliances.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.03,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000214",
+    "name": "Smart Watch (Entry-Level)",
+    "description": "An entry-level smartwatch with basic fitness tracking.",
+    "origin": "China",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.5,
+      "resources": 1.5,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000215",
+    "name": "Fitness Tracker (Basic Band)",
+    "description": "A basic wearable fitness tracker band.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000216",
+    "name": "Electric Car (Mid-Range Sedan)",
+    "description": "A new mid-range electric sedan. Price does not include electricity.",
+    "origin": "USA",
+    "price": 45000.00,
+    "externalities": {
+      "carbon": 8000.0,
+      "labor": 25.0,
+      "resources": 800.0,
+      "waste": 80.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000217",
+    "name": "Hybrid Car (Mid-Range Sedan)",
+    "description": "A new mid-range hybrid sedan. Price does not include fuel/electricity.",
+    "origin": "Japan",
+    "price": 32000.00,
+    "externalities": {
+      "carbon": 7000.0,
+      "labor": 22.0,
+      "resources": 600.0,
+      "waste": 60.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000218",
+    "name": "Bus Ticket (Intercity, 100 miles)",
+    "description": "A single bus ticket for an intercity journey of approximately 100 miles.",
+    "origin": "Local/Regional Bus Company",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.05,
+      "resources": 0.01,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000219",
+    "name": "Train Ticket (Commuter, Single Ride)",
+    "description": "A single ride on a commuter train within a metropolitan area.",
+    "origin": "Local Transit Authority",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.01,
+      "resources": 0.002,
+      "waste": 0.0002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000220",
+    "name": "Electric Scooter Rental (1 hour)",
+    "description": "One hour rental of a shared electric kick scooter.",
+    "origin": "Local Rental Service",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.005,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000221",
+    "name": "Bicycle Rental (1 day)",
+    "description": "A one-day rental of a standard bicycle.",
+    "origin": "Local Rental Service",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.01,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000222",
+    "name": "Concert T-Shirt (Cotton)",
+    "description": "A cotton t-shirt purchased at a concert or event.",
+    "origin": "USA (printing), Honduras (garment)",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.3,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000223",
+    "name": "Movie Ticket (Single Adult)",
+    "description": "A single adult ticket for a movie showing at a cinema.",
+    "origin": "Local Cinema",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.001,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000224",
+    "name": "Popcorn (Large, Cinema)",
+    "description": "A large serving of popcorn purchased at a movie theater.",
+    "origin": "USA",
+    "price": 9.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000225",
+    "name": "Soft Drink (Large, Cinema)",
+    "description": "A large fountain soft drink purchased at a movie theater.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000226",
+    "name": "Fast Food Burger (Single)",
+    "description": "A single beef burger from a popular fast food chain.",
+    "origin": "USA (beef), Global (ingredients)",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000227",
+    "name": "Fast Food French Fries (Medium)",
+    "description": "A medium serving of french fries from a popular fast food chain.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000228",
+    "name": "Chicken Nuggets (6-piece)",
+    "description": "A 6-piece serving of chicken nuggets from a fast food chain.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.04,
+      "resources": 0.15,
+      "waste": 0.04
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000229",
+    "name": "Pizza (Large, Pepperoni)",
+    "description": "A large pepperoni pizza from a chain restaurant.",
+    "origin": "USA",
+    "price": 18.00,
+    "externalities": {
+      "carbon": 4.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000230",
+    "name": "Sushi Roll (8 pieces, Tuna Avocado)",
+    "description": "An 8-piece tuna avocado sushi roll.",
+    "origin": "Japan (cuisine), Global (ingredients)",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.1,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000231",
+    "name": "Salad (Pre-packaged, with Chicken)",
+    "description": "A pre-packaged salad with grilled chicken for a quick meal.",
+    "origin": "USA",
+    "price": 9.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.15,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000232",
+    "name": "Sandwich (Deli-made, Turkey)",
+    "description": "A custom-made turkey sandwich from a deli.",
+    "origin": "USA (ingredients)",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.7,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000233",
+    "name": "Bottled Water (1 Liter, Glass)",
+    "description": "A 1-liter bottle of purified drinking water in a glass bottle.",
+    "origin": "Italy",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000234",
+    "name": "Orange Juice (Half-gallon, Not from Concentrate)",
+    "description": "A half-gallon carton of not-from-concentrate orange juice.",
+    "origin": "Brazil",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000235",
+    "name": "Breakfast Cereal (Large Box, Corn Flakes)",
+    "description": "A large box of classic corn flakes cereal.",
+    "origin": "USA",
+    "price": 5.50,
+    "externalities": {
+      "carbon": 0.4,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000236",
+    "name": "Bread (Loaf, White)",
+    "description": "A standard loaf of sliced white bread.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000237",
+    "name": "Milk (Gallon, 2% Fat)",
+    "description": "One gallon of 2% reduced-fat dairy milk.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.05,
+      "resources": 0.4,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000238",
+    "name": "Eggs (Dozen, Large)",
+    "description": "One dozen large chicken eggs.",
+    "origin": "USA",
+    "price": 4.50,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000239",
+    "name": "Chicken Breast (1 lb, Boneless/Skinless)",
+    "description": "One pound of boneless, skinless raw chicken breast.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000240",
+    "name": "Salmon Fillet (6 oz, Farmed)",
+    "description": "A 6-ounce fillet of farmed Atlantic salmon.",
+    "origin": "Norway",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000241",
+    "name": "Rice (2 lb bag, White)",
+    "description": "A 2-pound bag of long-grain white rice.",
+    "origin": "India",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.4,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000242",
+    "name": "Pasta (1 lb box, Spaghetti)",
+    "description": "A 1-pound box of dry spaghetti pasta.",
+    "origin": "Italy",
+    "price": 2.50,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000243",
+    "name": "Tomato Sauce (24 oz jar)",
+    "description": "A 24-ounce jar of prepared tomato pasta sauce.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.15,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000244",
+    "name": "Frozen Pizza (Standard Size)",
+    "description": "A standard-sized frozen pepperoni pizza.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000245",
+    "name": "Ice Cream (1/2 Gallon, Vanilla)",
+    "description": "A half-gallon carton of vanilla ice cream.",
+    "origin": "USA",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 1.2,
+      "labor": 0.05,
+      "resources": 0.15,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000246",
+    "name": "Chocolate Bar (Standard Size)",
+    "description": "A standard milk chocolate bar (e.g., Hershey's).",
+    "origin": "USA",
+    "price": 1.50,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000247",
+    "name": "Potato Chips (Large Bag)",
+    "description": "A large bag of classic potato chips.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000248",
+    "name": "Instant Coffee (Jar, 8 oz)",
+    "description": "An 8-ounce jar of instant coffee granules.",
+    "origin": "Brazil",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000249",
+    "name": "Tea Bags (Box of 100)",
+    "description": "A box of 100 black tea bags.",
+    "origin": "Sri Lanka",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000250",
+    "name": "Olive Oil (1 Liter Bottle)",
+    "description": "A 1-liter glass bottle of extra virgin olive oil.",
+    "origin": "Italy",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000251",
+    "name": "Sugar (2 lb bag, Granulated)",
+    "description": "A 2-pound bag of granulated white sugar.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000252",
+    "name": "Salt (26 oz container)",
+    "description": "A 26-ounce container of table salt.",
+    "origin": "USA",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.001,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000253",
+    "name": "Black Pepper (4 oz container, Ground)",
+    "description": "A 4-ounce container of ground black pepper.",
+    "origin": "Vietnam",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000254",
+    "name": "Canned Tuna (5 oz can)",
+    "description": "A 5-ounce can of chunk light tuna in water.",
+    "origin": "Thailand",
+    "price": 1.20,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.03,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000255",
+    "name": "Canned Tomatoes (15 oz can)",
+    "description": "A 15-ounce can of diced tomatoes.",
+    "origin": "USA",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000256",
+    "name": "Paper Towel Roll (Mega Roll)",
+    "description": "A single mega-roll of absorbent paper towels.",
+    "origin": "USA",
+    "price": 3.50,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000257",
+    "name": "Facial Tissues (Box of 160)",
+    "description": "A box of 160 two-ply facial tissues.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000258",
+    "name": "Cotton Balls (Bag of 100)",
+    "description": "A bag of 100 cotton balls.",
+    "origin": "USA",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.005,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000259",
+    "name": "Rubbing Alcohol (16 oz bottle)",
+    "description": "A 16-ounce bottle of isopropyl rubbing alcohol.",
+    "origin": "USA",
+    "price": 2.50,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.002,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000260",
+    "name": "Hydrogen Peroxide (16 oz bottle)",
+    "description": "A 16-ounce bottle of hydrogen peroxide solution.",
+    "origin": "USA",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.004,
+      "waste": 0.004
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000261",
+    "name": "Antacid Tablets (Bottle of 100)",
+    "description": "A bottle of 100 chewable antacid tablets.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.003,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000262",
+    "name": "Cough Drops (Bag)",
+    "description": "A bag of menthol cough drops.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.005,
+      "waste": 0.003
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000263",
+    "name": "Adhesive Tape (Clear, Standard Roll)",
+    "description": "A standard roll of clear adhesive tape.",
+    "origin": "USA",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000264",
+    "name": "Stapler (Desktop)",
+    "description": "A basic desktop stapler.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000265",
+    "name": "Staples (Box of 5000)",
+    "description": "A box of 5000 standard staples.",
+    "origin": "China",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.002,
+      "resources": 0.01,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000266",
+    "name": "Pencil Sharpener (Manual)",
+    "description": "A small, manual pencil sharpener.",
+    "origin": "China",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000267",
+    "name": "Eraser (Pencil Top, 5-pack)",
+    "description": "A pack of 5 pencil-top erasers.",
+    "origin": "China",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000268",
+    "name": "Binder Clips (Assorted, 10-pack)",
+    "description": "A pack of 10 assorted size binder clips.",
+    "origin": "China",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.005,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000269",
+    "name": "Paper Clips (Box of 100)",
+    "description": "A box of 100 standard metal paper clips.",
+    "origin": "China",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000270",
+    "name": "Post-it Notes (3x3 inch, Single Pad)",
+    "description": "A single pad of 3x3 inch sticky notes.",
+    "origin": "USA",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000271",
+    "name": "Highlighter (Single, Yellow)",
+    "description": "A single yellow fluorescent highlighter pen.",
+    "origin": "Germany",
+    "price": 1.50,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000272",
+    "name": "Whiteboard Markers (4-pack)",
+    "description": "A 4-pack of assorted color dry-erase whiteboard markers.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000273",
+    "name": "Whiteboard (24x36 inch)",
+    "description": "A 24x36 inch magnetic dry-erase whiteboard.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000274",
+    "name": "Desk Chair (Basic Office)",
+    "description": "A basic ergonomic office chair with wheels.",
+    "origin": "China",
+    "price": 80.00,
+    "externalities": {
+      "carbon": 15.0,
+      "labor": 0.5,
+      "resources": 5.0,
+      "waste": 1.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000275",
+    "name": "Office Desk (Small, Particleboard)",
+    "description": "A compact office desk made from particleboard.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.3,
+      "resources": 4.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000276",
+    "name": "Filing Cabinet (2-drawer, Metal)",
+    "description": "A small two-drawer metal filing cabinet.",
+    "origin": "China",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.4,
+      "resources": 3.0,
+      "waste": 0.3
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000277",
+    "name": "Bookcase (Small, Particleboard)",
+    "description": "A small, 3-shelf bookcase made from particleboard.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.2,
+      "resources": 3.0,
+      "waste": 0.4
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000278",
+    "name": "Wall Clock (Standard, Battery-Powered)",
+    "description": "A basic, battery-powered analog wall clock.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000279",
+    "name": "Calendar (Wall, 12-month)",
+    "description": "A standard 12-month wall calendar.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000280",
+    "name": "Planner (Daily/Weekly, Academic Year)",
+    "description": "A spiral-bound academic planner for daily and weekly organization.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000281",
+    "name": "Bluetooth Speaker (Portable)",
+    "description": "A compact, portable Bluetooth speaker for wireless audio streaming.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.15,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000282",
+    "name": "Drone (Entry-Level with Camera)",
+    "description": "A small, easy-to-fly drone with an integrated camera for hobbyists.",
+    "origin": "China",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.8,
+      "resources": 2.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000283",
+    "name": "VR Headset (Entry-Level)",
+    "description": "A standalone virtual reality headset for immersive gaming and experiences.",
+    "origin": "China",
+    "price": 300.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 1.5,
+      "resources": 5.0,
+      "waste": 0.3
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000284",
+    "name": "Projector (Portable Mini)",
+    "description": "A compact, portable mini projector for movie nights or presentations.",
+    "origin": "China",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 4.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000285",
+    "name": "Fitness Watch (Advanced)",
+    "description": "An advanced fitness watch with GPS, heart rate, and sleep tracking.",
+    "origin": "Taiwan",
+    "price": 250.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.6,
+      "resources": 2.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000286",
+    "name": "Digital Camera (Mirrorless, Entry-Level)",
+    "description": "An entry-level mirrorless digital camera with interchangeable lenses.",
+    "origin": "Japan",
+    "price": 700.00,
+    "externalities": {
+      "carbon": 50.0,
+      "labor": 3.0,
+      "resources": 10.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000287",
+    "name": "Printer (Laser, Monochrome)",
+    "description": "A monochrome laser printer for fast, black-and-white printing.",
+    "origin": "Vietnam",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 1.0,
+      "resources": 3.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000288",
+    "name": "Toner Cartridge (Single, Laser Printer)",
+    "description": "A single replacement toner cartridge for a laser printer.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000289",
+    "name": "Smart Scale (Body Composition)",
+    "description": "A smart scale that measures weight and body composition via app.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000290",
+    "name": "Smart Light Switch (Single)",
+    "description": "A Wi-Fi enabled smart light switch for wall installation.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000291",
+    "name": "Smart Power Strip (Multi-outlet)",
+    "description": "A smart power strip with multiple Wi-Fi controllable outlets.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 1.2,
+      "labor": 0.08,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000292",
+    "name": "Digital Voice Recorder",
+    "description": "A compact digital voice recorder for lectures or meetings.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000293",
+    "name": "Portable Charger (Power Bank, 10,000mAh)",
+    "description": "A 10,000mAh portable power bank for charging devices on the go.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000294",
+    "name": "USB-C to USB-C Cable (6 ft)",
+    "description": "A 6-foot USB-C to USB-C charging and data cable.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000295",
+    "name": "Gaming Headset (Wired)",
+    "description": "A wired gaming headset with microphone for clear communication.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000296",
+    "name": "Gaming Mouse (Wired)",
+    "description": "A wired gaming mouse with customizable buttons and high DPI.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.15,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000297",
+    "name": "Gaming Keyboard (Mechanical, Wired)",
+    "description": "A wired mechanical gaming keyboard with RGB lighting.",
+    "origin": "China",
+    "price": 80.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000298",
+    "name": "External Monitor (27-inch, 1440p)",
+    "description": "A 27-inch 1440p resolution external computer monitor.",
+    "origin": "China",
+    "price": 300.00,
+    "externalities": {
+      "carbon": 40.0,
+      "labor": 1.5,
+      "resources": 8.0,
+      "waste": 0.8
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000299",
+    "name": "Webcam (4K UHD)",
+    "description": "A high-end 4K Ultra HD webcam for professional streaming/video calls.",
+    "origin": "China",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000300",
+    "name": "Microphone (Condenser, USB)",
+    "description": "A studio-quality USB condenser microphone for podcasting or music.",
+    "origin": "China",
+    "price": 120.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.15,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000301",
+    "name": "E-Reader (Basic Model)",
+    "description": "A basic E-reader with a glare-free screen for digital books.",
+    "origin": "China",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 6.0,
+      "labor": 0.4,
+      "resources": 1.0,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000302",
+    "name": "Tablet (Mid-Range Android)",
+    "description": "A 10-inch Android tablet for entertainment and light productivity.",
+    "origin": "China",
+    "price": 250.00,
+    "externalities": {
+      "carbon": 25.0,
+      "labor": 1.5,
+      "resources": 5.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000303",
+    "name": "Portable Gaming Handheld (e.g., Nintendo Switch Lite)",
+    "description": "A compact, handheld gaming console for portable play.",
+    "origin": "Vietnam",
+    "price": 199.99,
+    "externalities": {
+      "carbon": 15.0,
+      "labor": 1.0,
+      "resources": 3.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000304",
+    "name": "Smart Watch (High-End)",
+    "description": "A premium smartwatch with advanced health tracking and cellular connectivity.",
+    "origin": "China",
+    "price": 400.00,
+    "externalities": {
+      "carbon": 12.0,
+      "labor": 0.8,
+      "resources": 2.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000305",
+    "name": "Smart Home Hub (e.g., Apple HomePod Mini)",
+    "description": "A central smart home hub with integrated speaker and voice assistant.",
+    "origin": "China",
+    "price": 99.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000306",
+    "name": "Security Camera (Outdoor, Wireless)",
+    "description": "A weather-resistant wireless outdoor security camera.",
+    "origin": "China",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 6.0,
+      "labor": 0.4,
+      "resources": 1.2,
+      "waste": 0.06
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000307",
+    "name": "Coffee Beans (12oz, Specialty Roast)",
+    "description": "A 12-ounce bag of specialty roasted coffee beans from a specific region.",
+    "origin": "Ethiopia",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.7,
+      "labor": 0.15,
+      "resources": 0.12,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000308",
+    "name": "Tea (Loose Leaf, 4 oz Bag)",
+    "description": "A 4-ounce bag of high-quality loose leaf black tea.",
+    "origin": "India",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000309",
+    "name": "Chocolate Bar (Dark, Organic, 3.5 oz)",
+    "description": "A 3.5-ounce bar of organic dark chocolate.",
+    "origin": "Peru (cacao), Switzerland (processing)",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.05,
+      "resources": 0.03,
+      "waste": 0.008
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000310",
+    "name": "Wine Bottle (Red, 750ml)",
+    "description": "A 750ml bottle of standard red wine.",
+    "origin": "France",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.7,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000311",
+    "name": "Craft Beer (6-pack, 12oz cans)",
+    "description": "A 6-pack of 12-ounce craft beer aluminum cans.",
+    "origin": "USA",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000312",
+    "name": "Artisanal Cheese (8 oz block)",
+    "description": "An 8-ounce block of artisanal hard cheese.",
+    "origin": "Italy",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000313",
+    "name": "Fresh Baked Bread (Loaf, Sourdough)",
+    "description": "A freshly baked loaf of sourdough bread from a local bakery.",
+    "origin": "Local Bakery",
+    "price": 6.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.03,
+      "resources": 0.08,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000314",
+    "name": "Avocado (Single, Large)",
+    "description": "A single large Hass avocado.",
+    "origin": "Mexico",
+    "price": 2.50,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000315",
+    "name": "Organic Strawberries (1 lb container)",
+    "description": "A 1-pound container of organic fresh strawberries.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.4,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000316",
+    "name": "Bananas (1 lb)",
+    "description": "Approximately 3-4 bananas, sold by weight.",
+    "origin": "Ecuador",
+    "price": 0.70,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000317",
+    "name": "Orange (Single)",
+    "description": "A single navel orange.",
+    "origin": "USA",
+    "price": 0.75,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000318",
+    "name": "Heirloom Tomatoes (1 lb)",
+    "description": "One pound of assorted heirloom tomatoes.",
+    "origin": "USA (Local Farm)",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000319",
+    "name": "Bell Pepper (Single, Green)",
+    "description": "A single green bell pepper.",
+    "origin": "Mexico",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000320",
+    "name": "Potato (Single, Russet)",
+    "description": "A single large russet potato.",
+    "origin": "USA",
+    "price": 0.50,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.002,
+      "resources": 0.005,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000321",
+    "name": "Onion (Single, Yellow)",
+    "description": "A single medium-sized yellow onion.",
+    "origin": "USA",
+    "price": 0.75,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.004,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000322",
+    "name": "Carrot (1 lb bag)",
+    "description": "A 1-pound bag of whole carrots.",
+    "origin": "USA",
+    "price": 1.50,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000323",
+    "name": "Cucumber (Single)",
+    "description": "A single standard cucumber.",
+    "origin": "Mexico",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000324",
+    "name": "Broccoli Head (Single)",
+    "description": "A single head of fresh broccoli.",
+    "origin": "USA",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.008,
+      "resources": 0.015,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000325",
+    "name": "Lettuce (Head, Romaine)",
+    "description": "A single head of romaine lettuce.",
+    "origin": "USA",
+    "price": 2.50,
+    "externalities": {
+      "carbon": 0.06,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.003
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000326",
+    "name": "Spinach (5 oz bag, Fresh)",
+    "description": "A 5-ounce bag of pre-washed fresh spinach.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.008,
+      "resources": 0.015,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000327",
+    "name": "Frozen Peas (1 lb bag)",
+    "description": "A 1-pound bag of frozen green peas.",
+    "origin": "USA",
+    "price": 2.50,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000328",
+    "name": "Frozen Chicken Nuggets (2 lb bag)",
+    "description": "A 2-pound bag of frozen chicken nuggets.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.08,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000329",
+    "name": "Frozen Pizza (Small, Individual)",
+    "description": "A small individual-sized frozen pizza.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.02,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000330",
+    "name": "Instant Ramen Noodles (Single Pack)",
+    "description": "A single packet of instant ramen noodles.",
+    "origin": "South Korea",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000331",
+    "name": "Canned Soup (Cream of Mushroom)",
+    "description": "A 10.5-ounce can of condensed cream of mushroom soup.",
+    "origin": "USA",
+    "price": 1.50,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000332",
+    "name": "Peanut Butter (16 oz jar)",
+    "description": "A 16-ounce jar of creamy peanut butter.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000333",
+    "name": "Jelly/Jam (12 oz jar)",
+    "description": "A 12-ounce jar of fruit jelly or jam.",
+    "origin": "USA",
+    "price": 3.50,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000334",
+    "name": "Mayonnaise (30 oz jar)",
+    "description": "A large 30-ounce jar of creamy mayonnaise.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000335",
+    "name": "Ketchup (20 oz bottle)",
+    "description": "A 20-ounce squeeze bottle of tomato ketchup.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000336",
+    "name": "Mustard (12 oz bottle)",
+    "description": "A 12-ounce squeeze bottle of yellow mustard.",
+    "origin": "USA",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000337",
+    "name": "Soy Sauce (10 oz bottle)",
+    "description": "A 10-ounce glass bottle of regular soy sauce.",
+    "origin": "Japan",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000338",
+    "name": "White Vinegar (32 oz bottle)",
+    "description": "A 32-ounce bottle of distilled white vinegar.",
+    "origin": "USA",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000339",
+    "name": "Baking Soda (1 lb box)",
+    "description": "A 1-pound box of pure baking soda.",
+    "origin": "USA",
+    "price": 1.50,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000340",
+    "name": "Baking Powder (8 oz container)",
+    "description": "An 8-ounce container of double-acting baking powder.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000341",
+    "name": "Vanilla Extract (2 oz bottle)",
+    "description": "A 2-ounce bottle of pure vanilla extract.",
+    "origin": "Madagascar (vanilla bean), USA (processing)",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000342",
+    "name": "Spice Jar (Cumin, 2 oz)",
+    "description": "A small jar of ground cumin spice.",
+    "origin": "India",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.002,
+      "resources": 0.005,
+      "waste": 0.003
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000343",
+    "name": "Dry Herbs (Oregano, 0.5 oz)",
+    "description": "A small container of dried oregano leaves.",
+    "origin": "Turkey",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000344",
+    "name": "Honey (16 oz jar)",
+    "description": "A 16-ounce jar of pure clover honey.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000345",
+    "name": "Flour (5 lb bag, All-Purpose)",
+    "description": "A 5-pound bag of all-purpose wheat flour.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000346",
+    "name": "Granola Bars (Box of 8)",
+    "description": "A box containing 8 individually wrapped granola bars.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.02,
+      "resources": 0.03,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000347",
+    "name": "Toothpicks (Box of 250)",
+    "description": "A box of 250 wooden toothpicks.",
+    "origin": "China",
+    "price": 1.00,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000348",
+    "name": "Q-tips (Box of 500)",
+    "description": "A box of 500 cotton swabs (Q-tips).",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.005,
+      "resources": 0.015,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000349",
+    "name": "Body Lotion (16 oz bottle)",
+    "description": "A large bottle of moisturizing body lotion.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000350",
+    "name": "Hair Spray (8 oz can)",
+    "description": "An 8-ounce aerosol can of hair spray.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000351",
+    "name": "Shaving Cream (11 oz can)",
+    "description": "An 11-ounce aerosol can of shaving cream.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.003,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000352",
+    "name": "Aftershave Balm (4 oz bottle)",
+    "description": "A 4-ounce bottle of soothing aftershave balm.",
+    "origin": "France",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.008
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000353",
+    "name": "Perfume/Cologne (1 oz bottle)",
+    "description": "A 1-ounce bottle of men's or women's fragrance.",
+    "origin": "France",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000354",
+    "name": "Mouthwash (1 Liter Bottle)",
+    "description": "A 1-liter bottle of antiseptic mouthwash.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000355",
+    "name": "Dental Floss (Standard Roll)",
+    "description": "A standard roll of waxed dental floss.",
+    "origin": "USA",
+    "price": 3.00,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000356",
+    "name": "Electric Fan (Tower Fan)",
+    "description": "A tall, oscillating tower fan for indoor cooling.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000357",
+    "name": "Space Heater (Electric)",
+    "description": "A small electric portable space heater.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.15,
+      "resources": 0.3,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000358",
+    "name": "Air Purifier (Medium Room)",
+    "description": "An air purifier designed for medium-sized rooms.",
+    "origin": "China",
+    "price": 150.00,
+    "externalities": {
+      "carbon": 10.0,
+      "labor": 0.8,
+      "resources": 2.0,
+      "waste": 0.3
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000359",
+    "name": "Humidifier (Cool Mist)",
+    "description": "A cool mist humidifier for adding moisture to the air.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.15,
+      "resources": 0.3,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000360",
+    "name": "Dehumidifier (Portable)",
+    "description": "A portable dehumidifier for removing moisture from the air.",
+    "origin": "China",
+    "price": 200.00,
+    "externalities": {
+      "carbon": 15.0,
+      "labor": 1.0,
+      "resources": 4.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000361",
+    "name": "Window Blinds (Standard, 36x60 inch)",
+    "description": "A set of standard horizontal window blinds for a 36x60 inch window.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000362",
+    "name": "Curtain Rod (Standard, 48-84 inch)",
+    "description": "An adjustable curtain rod for window treatments.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000363",
+    "name": "Throw Pillow (Decorative)",
+    "description": "A small decorative throw pillow for a sofa or bed.",
+    "origin": "India",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.1,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000364",
+    "name": "Area Rug (5x7 ft, Synthetic)",
+    "description": "A 5x7 foot area rug made from synthetic fibers.",
+    "origin": "Turkey",
+    "price": 100.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.5,
+      "resources": 2.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000365",
+    "name": "Wall Mirror (Rectangular, 24x36 inch)",
+    "description": "A rectangular wall mirror with a simple frame.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 1.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000366",
+    "name": "Vase (Ceramic, Small)",
+    "description": "A small decorative ceramic vase.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000367",
+    "name": "Artificial Plant (Small, Potted)",
+    "description": "A small artificial plant in a decorative pot.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000368",
+    "name": "Cookbook (Hardcover)",
+    "description": "A new hardcover cookbook with recipes and photos.",
+    "origin": "USA",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.6,
+      "labor": 0.08,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000369",
+    "name": "Non-Stick Frying Pan (12-inch)",
+    "description": "A 12-inch non-stick aluminum frying pan.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 1.0,
+      "waste": 0.15
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000370",
+    "name": "Oven Mitts (Pair)",
+    "description": "A pair of quilted cotton oven mitts.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000371",
+    "name": "Baking Sheet (Large)",
+    "description": "A large non-stick metal baking sheet.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000372",
+    "name": "Measuring Cups and Spoons (Set)",
+    "description": "A set of plastic measuring cups and spoons.",
+    "origin": "China",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.005,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000373",
+    "name": "Mixing Bowls (Set of 3, Stainless Steel)",
+    "description": "A nesting set of three stainless steel mixing bowls.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000374",
+    "name": "Food Storage Containers (Plastic, 5-pack)",
+    "description": "A set of 5 plastic food storage containers with lids.",
+    "origin": "USA",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000375",
+    "name": "Food Storage Containers (Glass, 3-pack)",
+    "description": "A set of 3 glass food storage containers with plastic lids.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000376",
+    "name": "Water Filter Pitcher (Whole System)",
+    "description": "A complete water filter pitcher system with one filter included.",
+    "origin": "Mexico",
+    "price": 35.00,
+    "externalities": {
+      "carbon": 1.2,
+      "labor": 0.08,
+      "resources": 0.25,
+      "waste": 0.15
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000377",
+    "name": "Dish Drying Rack (Metal)",
+    "description": "A standard metal dish drying rack for countertop use.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000378",
+    "name": "Dish Soap (Refill Pouch, 32 oz)",
+    "description": "A 32-ounce refill pouch of liquid dish soap.",
+    "origin": "USA",
+    "price": 7.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.003,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000379",
+    "name": "Scented Candles (Set of 3, Small)",
+    "description": "A set of three small scented candles in glass votives.",
+    "origin": "USA",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000380",
+    "name": "Incense Sticks (Pack)",
+    "description": "A pack of incense sticks with a variety of scents.",
+    "origin": "India",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000381",
+    "name": "Essential Oil Diffuser (Ultrasonic)",
+    "description": "An ultrasonic essential oil diffuser with LED light.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000382",
+    "name": "Essential Oil (15ml bottle)",
+    "description": "A 15ml bottle of single-note essential oil (e.g., Lavender).",
+    "origin": "France",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000383",
+    "name": "Air Freshener Spray (8 oz can)",
+    "description": "An 8-ounce aerosol can of room air freshener.",
+    "origin": "USA",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.003,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000384",
+    "name": "Room Spray (Non-Aerosol)",
+    "description": "A non-aerosol trigger spray bottle of room freshener.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.004,
+      "waste": 0.004
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000385",
+    "name": "Indoor Plant Pot (Ceramic, Medium)",
+    "description": "A medium-sized decorative ceramic pot for houseplants.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000386",
+    "name": "Houseplant (Snake Plant, Small)",
+    "description": "A small potted snake plant (Sansevieria trifasciata).",
+    "origin": "Florida, USA",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000387",
+    "name": "Watering Can (Plastic)",
+    "description": "A small plastic watering can for indoor plants.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000388",
+    "name": "Plant Fertilizer Sticks (Pack)",
+    "description": "A pack of slow-release fertilizer sticks for houseplants.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.003
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000389",
+    "name": "Garden Pruners (Hand Shears)",
+    "description": "A pair of hand pruning shears for garden work.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000390",
+    "name": "Weeding Tool (Hand)",
+    "description": "A small hand weeding tool for garden beds.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000391",
+    "name": "Garden Rake (Standard)",
+    "description": "A full-sized garden rake for leaf and debris clearing.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.08,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000392",
+    "name": "Lawn Mower (Gas-Powered Push)",
+    "description": "A traditional gas-powered push lawn mower.",
+    "origin": "USA",
+    "price": 300.00,
+    "externalities": {
+      "carbon": 50.0,
+      "labor": 1.5,
+      "resources": 10.0,
+      "waste": 1.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000393",
+    "name": "Leaf Blower (Electric, Corded)",
+    "description": "A corded electric leaf blower for yard clean-up.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 4.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000394",
+    "name": "Garden Hose Nozzle (Multi-Pattern)",
+    "description": "A multi-pattern spray nozzle for a garden hose.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000395",
+    "name": "Pool Chlorine Tablets (10 lb bucket)",
+    "description": "A 10-pound bucket of chlorine tablets for swimming pool maintenance.",
+    "origin": "USA",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000396",
+    "name": "Swimming Goggles (Adult)",
+    "description": "A pair of swimming goggles for adult use.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000397",
+    "name": "Beach Towel (Large, Cotton)",
+    "description": "A large, absorbent cotton beach towel.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.15,
+      "resources": 0.4,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000398",
+    "name": "Sun Hat (Straw, Wide-brimmed)",
+    "description": "A wide-brimmed straw hat for sun protection.",
+    "origin": "Mexico",
+    "price": 18.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.05,
+      "resources": 0.1,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000399",
+    "name": "Beach Chair (Folding)",
+    "description": "A lightweight folding beach chair with armrests.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000400",
+    "name": "Cooler (Small, Hard-sided)",
+    "description": "A small hard-sided cooler for drinks and snacks.",
+    "origin": "USA",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.08,
+      "resources": 0.3,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000401",
+    "name": "First Aid Kit (Outdoor/Travel)",
+    "description": "A compact first aid kit suitable for outdoor activities or travel.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.15,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000402",
+    "name": "Headlamp (LED)",
+    "description": "A small LED headlamp for hands-free illumination.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000403",
+    "name": "Hiking Backpack (Daypack)",
+    "description": "A medium-sized daypack for hiking and outdoor excursions.",
+    "origin": "Vietnam",
+    "price": 80.00,
+    "externalities": {
+      "carbon": 4.0,
+      "labor": 0.5,
+      "resources": 1.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000404",
+    "name": "Sleeping Pad (Lightweight)",
+    "description": "A lightweight inflatable sleeping pad for camping.",
+    "origin": "China",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 0.8,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000405",
+    "name": "Camp Stove (Small, Propane)",
+    "description": "A single-burner portable propane camp stove.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000406",
+    "name": "Propane Fuel Canister (Small)",
+    "description": "A small disposable propane fuel canister for camp stoves.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000407",
+    "name": "Water Filter (Portable, Backpacking)",
+    "description": "A small, portable water filter for hiking and camping.",
+    "origin": "USA",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000408",
+    "name": "Camping Lantern (LED)",
+    "description": "A battery-powered LED camping lantern.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.15,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000409",
+    "name": "Fishing Rod and Reel Combo (Entry-Level)",
+    "description": "A basic fishing rod and reel combo for beginners.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 0.8,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000410",
+    "name": "Fishing Lures (Assorted, 5-pack)",
+    "description": "A pack of 5 assorted fishing lures.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000411",
+    "name": "Golf Club (Single Iron)",
+    "description": "A single iron golf club (e.g., 7-iron).",
+    "origin": "China",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.3,
+      "resources": 1.0,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000412",
+    "name": "Golf Balls (Dozen)",
+    "description": "A dozen standard golf balls.",
+    "origin": "USA",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000413",
+    "name": "Tennis Racket (Entry-Level)",
+    "description": "A basic tennis racket for recreational play.",
+    "origin": "China",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000414",
+    "name": "Tennis Balls (Can of 3)",
+    "description": "A can of 3 standard tennis balls.",
+    "origin": "Thailand",
+    "price": 4.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000415",
+    "name": "Baseball Bat (Aluminum)",
+    "description": "An aluminum baseball bat for youth or adult recreational play.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000416",
+    "name": "Baseball (Single)",
+    "description": "A single standard baseball.",
+    "origin": "China",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000417",
+    "name": "Football (Standard American)",
+    "description": "A standard size American football (synthetic leather).",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000418",
+    "name": "Basketball Hoop (Portable, Residential)",
+    "description": "A portable basketball hoop system for home use.",
+    "origin": "China",
+    "price": 250.00,
+    "externalities": {
+      "carbon": 30.0,
+      "labor": 1.0,
+      "resources": 8.0,
+      "waste": 2.0
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000419",
+    "name": "Soccer Goal (Small, Portable)",
+    "description": "A small, portable soccer goal for backyard play.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000420",
+    "name": "Bike Helmet (Adult)",
+    "description": "A standard adult bicycle helmet.",
+    "origin": "China",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.1,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000421",
+    "name": "Bike Lock (U-Lock)",
+    "description": "A heavy-duty U-lock for securing bicycles.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000422",
+    "name": "Bike Pump (Floor Pump)",
+    "description": "A tall floor-standing bicycle pump with a pressure gauge.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000423",
+    "name": "Bike Repair Kit (Basic)",
+    "description": "A small kit for basic bicycle tire and chain repairs.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000424",
+    "name": "Electric Scooter (Personal, Adult)",
+    "description": "A foldable electric kick scooter for personal urban transport.",
+    "origin": "China",
+    "price": 400.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 1.0,
+      "resources": 5.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000425",
+    "name": "Electric Skateboard",
+    "description": "A motorized electric skateboard for personal transport.",
+    "origin": "China",
+    "price": 600.00,
+    "externalities": {
+      "carbon": 25.0,
+      "labor": 1.2,
+      "resources": 6.0,
+      "waste": 0.6
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000426",
+    "name": "Roller Skates (Adult)",
+    "description": "A pair of roller skates for adult recreational use.",
+    "origin": "China",
+    "price": 80.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.2,
+      "resources": 1.0,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000427",
+    "name": "Ice Skates (Adult)",
+    "description": "A pair of ice skates for adult recreational skating.",
+    "origin": "China",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 2.5,
+      "labor": 0.15,
+      "resources": 0.8,
+      "waste": 0.08
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000428",
+    "name": "Ski Goggles",
+    "description": "A pair of ski goggles for snow sports.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.15,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000429",
+    "name": "Snowboard (All-Mountain)",
+    "description": "A versatile all-mountain snowboard for recreational riding.",
+    "origin": "Austria",
+    "price": 400.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 1.0,
+      "resources": 5.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000430",
+    "name": "Ski Boots (Adult)",
+    "description": "A pair of adult downhill ski boots.",
+    "origin": "Italy",
+    "price": 300.00,
+    "externalities": {
+      "carbon": 15.0,
+      "labor": 0.8,
+      "resources": 4.0,
+      "waste": 0.4
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000431",
+    "name": "Diving Mask and Snorkel Set",
+    "description": "A set including a diving mask and snorkel for snorkeling.",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.5,
+      "labor": 0.03,
+      "resources": 0.1,
+      "waste": 0.02
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000432",
+    "name": "Swim Fins (Adult)",
+    "description": "A pair of adult swim fins for snorkeling or swimming.",
+    "origin": "China",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.03
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000433",
+    "name": "Paddleboard (Inflatable)",
+    "description": "An inflatable stand-up paddleboard for recreational paddling.",
+    "origin": "China",
+    "price": 400.00,
+    "externalities": {
+      "carbon": 20.0,
+      "labor": 1.0,
+      "resources": 5.0,
+      "waste": 0.5
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000434",
+    "name": "Kayaking Paddle (Single)",
+    "description": "A single two-piece kayaking paddle.",
+    "origin": "China",
+    "price": 70.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.1,
+      "resources": 0.5,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000435",
+    "name": "Life Vest (Adult Universal)",
+    "description": "A universal adult-sized personal flotation device (PFD).",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 1.5,
+      "labor": 0.08,
+      "resources": 0.3,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000436",
+    "name": "Fishing Net (Landing Net)",
+    "description": "A portable landing net for fishing.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000437",
+    "name": "Fishing Bait (Worms, Small Container)",
+    "description": "A small container of live fishing worms.",
+    "origin": "USA (Local)",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.001,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000438",
+    "name": "Skincare Face Cleanser (8 oz bottle)",
+    "description": "An 8-ounce bottle of daily facial cleanser.",
+    "origin": "USA",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.01,
+      "resources": 0.015,
+      "waste": 0.015
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000439",
+    "name": "Skincare Moisturizer (2 oz jar)",
+    "description": "A 2-ounce jar of facial moisturizer.",
+    "origin": "USA",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000440",
+    "name": "Foundation (Liquid Makeup, 1 oz bottle)",
+    "description": "A 1-ounce bottle of liquid cosmetic foundation.",
+    "origin": "France",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.08,
+      "labor": 0.01,
+      "resources": 0.015,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000441",
+    "name": "Lipstick (Single)",
+    "description": "A single tube of colored lipstick.",
+    "origin": "USA",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000442",
+    "name": "Mascara (Standard Tube)",
+    "description": "A standard tube of lengthening and volumizing mascara.",
+    "origin": "USA",
+    "price": 12.00,
+    "externalities": {
+      "carbon": 0.02,
+      "labor": 0.002,
+      "resources": 0.003,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000443",
+    "name": "Eye Shadow Palette (Small)",
+    "description": "A small palette of assorted eye shadow colors.",
+    "origin": "China",
+    "price": 20.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000444",
+    "name": "Makeup Brush (Single)",
+    "description": "A single synthetic fiber makeup brush for applying powder or foundation.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.002
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000445",
+    "name": "Nail Polish (Single Bottle)",
+    "description": "A single bottle of colored nail polish.",
+    "origin": "USA",
+    "price": 8.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000446",
+    "name": "Perfume/Cologne Travel Spray (0.3 oz)",
+    "description": "A small travel-sized spray bottle of fragrance.",
+    "origin": "France",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.03,
+      "labor": 0.003,
+      "resources": 0.005,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000447",
+    "name": "Hair Tie/Scrunchie (Single)",
+    "description": "A single fabric hair tie or scrunchie.",
+    "origin": "China",
+    "price": 2.00,
+    "externalities": {
+      "carbon": 0.005,
+      "labor": 0.0005,
+      "resources": 0.001,
+      "waste": 0.0005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000448",
+    "name": "Hair Brush (Standard)",
+    "description": "A standard plastic or mixed-bristle hair brush.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.1,
+      "labor": 0.01,
+      "resources": 0.02,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000449",
+    "name": "Hair Clip/Barrette (Single)",
+    "description": "A single decorative hair clip or barrette.",
+    "origin": "China",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000450",
+    "name": "Flea & Tick Treatment (Dog, Single Dose)",
+    "description": "A single monthly dose of topical flea and tick prevention for dogs.",
+    "origin": "USA",
+    "price": 25.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000451",
+    "name": "Dog Leash (Standard, Nylon)",
+    "description": "A standard 6-foot nylon dog leash.",
+    "origin": "China",
+    "price": 15.00,
+    "externalities": {
+      "carbon": 0.3,
+      "labor": 0.02,
+      "resources": 0.05,
+      "waste": 0.01
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000452",
+    "name": "Dog Collar (Standard, Nylon)",
+    "description": "A standard adjustable nylon dog collar.",
+    "origin": "China",
+    "price": 10.00,
+    "externalities": {
+      "carbon": 0.2,
+      "labor": 0.01,
+      "resources": 0.03,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000453",
+    "name": "Cat Toy (Feather Wand)",
+    "description": "A simple cat toy consisting of a wand with feathers.",
+    "origin": "China",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.01,
+      "labor": 0.001,
+      "resources": 0.002,
+      "waste": 0.001
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000454",
+    "name": "Fish Tank (10 Gallon)",
+    "description": "A 10-gallon glass aquarium for pet fish.",
+    "origin": "USA",
+    "price": 50.00,
+    "externalities": {
+      "carbon": 5.0,
+      "labor": 0.2,
+      "resources": 1.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000455",
+    "name": "Bird Cage (Small)",
+    "description": "A small wire bird cage for parakeets or finches.",
+    "origin": "China",
+    "price": 40.00,
+    "externalities": {
+      "carbon": 3.0,
+      "labor": 0.15,
+      "resources": 0.8,
+      "waste": 0.1
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000456",
+    "name": "Pet Carrier (Small)",
+    "description": "A small plastic pet carrier for cats or small dogs.",
+    "origin": "USA",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 1.0,
+      "labor": 0.05,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000457",
+    "name": "Children's Bicycle (16-inch wheels)",
+    "description": "A small bicycle with 16-inch wheels for young children.",
+    "origin": "China",
+    "price": 120.00,
+    "externalities": {
+      "carbon": 8.0,
+      "labor": 0.5,
+      "resources": 2.0,
+      "waste": 0.2
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000458",
+    "name": "Stuffed Animal (Large)",
+    "description": "A large plush stuffed animal (e.g., teddy bear).",
+    "origin": "China",
+    "price": 30.00,
+    "externalities": {
+      "carbon": 0.8,
+      "labor": 0.1,
+      "resources": 0.2,
+      "waste": 0.05
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000459",
+    "name": "Play-Doh (4-pack)",
+    "description": "A 4-pack of small Play-Doh containers.",
+    "origin": "USA",
+    "price": 5.00,
+    "externalities": {
+      "carbon": 0.05,
+      "labor": 0.005,
+      "resources": 0.01,
+      "waste": 0.005
+    }
+  },
+  {
+    "sku": "00000000-0000-0000-0000-000000000460",
+    "name": "Building Blocks (Large Set, Plastic)",
+    "description": "A large set of interlocking plastic building blocks for children.",
+    "origin": "Denmark",
+    "price": 60.00,
+    "externalities": {
+      "carbon": 2.0,
+      "labor": 0.2,
+      "resources": 0.5,
+      "waste": 0.1
     }
   }
 ]
+
