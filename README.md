@@ -7,13 +7,16 @@ externalities like carbon footprint or resource depletion.
 ## Usage
 
 1. Prepare a JSON file describing your products. Each entry should include a
-   unique `sku` identifier. A sample file named `sample_data.json` is included:
+   globally unique `sku` along with a short `description` and `origin` field.
+   A sample file named `sample_data.json` is included:
 
 ```json
 [
   {
-    "sku": "WID-001",
+    "sku": "11111111-1111-1111-1111-111111111111",
     "name": "Widget",
+    "description": "A standard widget",
+    "origin": "USA",
     "price": 10.0,
     "externalities": {
       "carbon": 1.0,
@@ -34,7 +37,7 @@ python -m pantopia.cli sample_data.json
 You can also display the cost for a single SKU:
 
 ```bash
-python -m pantopia.cli sample_data.json --sku WID-001
+python -m pantopia.cli sample_data.json --sku 11111111-1111-1111-1111-111111111111
 ```
 
 ## Testing

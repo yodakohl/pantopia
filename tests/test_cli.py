@@ -11,9 +11,9 @@ def test_cli_filter_sku():
         "pantopia.cli",
         str(data_path),
         "--sku",
-        "WID-001",
+        "11111111-1111-1111-1111-111111111111",
     ], capture_output=True, text=True)
-    assert "WID-001" in result.stdout
+    assert "11111111-1111-1111-1111-111111111111" in result.stdout
     assert "Widget" in result.stdout
     assert "$12.00" in result.stdout
     assert result.returncode == 0
